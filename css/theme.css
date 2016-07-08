@@ -1018,7 +1018,7 @@ nav.bg-dark .logo-dark {
   content: "\e649";
 }
 .menu > li > ul li a {
-  color: #fff;
+  color: #000000;
   height: auto;
   padding: 6px 24px;
 }
