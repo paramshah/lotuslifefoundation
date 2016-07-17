@@ -11,6 +11,8 @@
         <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme-nature.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/font-oswald.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/font-avenir.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/font-proximanova.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,600,700' rel='stylesheet' type='text/css'>
@@ -18,12 +20,12 @@
     <body>
         <div class="nav-container">
             <a id="top"></a>
-            <nav class="absolute transparent">
+            <nav class="bg-dark">
                 <div class="nav-bar">
                     <div class="module left">
                         <a href="index.html">
                             <img class="logo logo-light" alt="Foundry" src="img/llf/logo_blockflower_white copy.png" />
-                            <img class="logo logo-dark" alt="Foundry" src="img/llf/logo_lineflower_orange.png" />
+                            <img class="logo logo-dark" alt="Foundry" src="img/llf/logo_blockflower_orange.png" />
                         </a>
                     </div>
                     <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -33,59 +35,31 @@
                         <div class="module left">
                             <ul class="menu">
                                 <li>
-                                    <a href="#" style="color:#000000">
+                                    <a href="#" style="">
                                         Home
                                     </a>
                                 </li>
                                 <li>
-                                  <a href="#" style="color:#000000">
+                                  <a href="#" style="">
                                       Our Process
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="sidhbari-feature.html" style="color:#000000">
+                                  <a href="sidhbari-feature.html" style="">
                                       Sidhbari
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#" style="color:#000000">
+                                  <a href="#" style="">
                                       About Us
                                   </a>
                                 </li>
+                                <li>
+                                  <a class="btn btn-sm btn-donate-2" href="#">Donate</a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="module widget-handle cart-widget-handle left">
-                            <div class="cart">
-                                <i class="ti-gift" style="color:#000000"></i>
-                                <span class="title">Give</span>
-                            </div>
-                            <div class="function">
-                                <div class="widget">
-                                    <h6 class="title">Give</h6>
-                                    <hr>
-                                    <ul class="cart-overview">
-                                        <li>
-                                            <a href="#">
-                                                <img alt="Product" src="img/shop-widget-2.png" />
-                                                <div class="description">
-                                                    <span class="product-title">Vintage Camera</span>
-                                                    <span class="price number">$249.50</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <hr>
-                                    <div class="cart-controls">
-                                        <a class="btn btn-sm btn-filled" href="#">Checkout</a>
-                                        <div class="list-inline pull-right">
-                                            <span class="cart-total">Total: </span>
-                                            <span class="number">$289.40</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--end of widget-->
-                            </div>
-                        </div>
+
                         <!--end of menu module-->
                     </div>
                     <!--end of module group-->
@@ -119,43 +93,60 @@
                     </li>
                 </ul>
             </section>
-            <section class="">
+
+            <section class=" pt-xs-80 pb-xs-80">
+            	<div class="container">
+            		<div class="row">
+            			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <img class="logo" src="img/llf/logo_blockflower_orange.png" style="width:75px" />
+            				<h3 class="mb40 mb-xs-32" style="font-family:Avenir;font-weight:bold">We work in three key areas:</h3>
+            			</div>
+            		</div><!--end of row-->
+            	</div><!--end of container-->
+            </section>
+            <!-- <section class="">
                 <div class="container">
-                    <div class="row">
+                    <div class="row"> -->
                         <!-- <div class="col-sm-10 col-sm-offset-1 text-center">
                             <h3 class="uppercase mb40 mb-xs-24">Help them take their first steps.</h3>
                             <p class="lead mb64">
                               The Lotus Life Foundation empowers organizations and people fighting the stigma of disability through medical intervention and education. And we need you to help us.
                             </p>
                         </div> -->
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                           <img src="img/llf/intro-title.jpg">
                         </div>
                         <div class="col-sm-6">
                           <h4 style="font-family:Avenir">Through strong partnerships with grassroots nonprofits, the Lotus Life Foundation empowers people to fight the stigma of disability in rural areas through medical intervention and education.</h4>
-                          <div class="well well-lg well-donate col-sm-8 col-sm-offset-2">
-                            <form id="donate_form" method="post" action="http://ec2-54-86-240-164.compute-1.amazonaws.com/payments">
+                          <div class="well well-lg well-donate col-sm-8 col-sm-offset-2"> -->
+                            <!-- <form id="donate_form" method="post" action="http://ec2-54-86-240-164.compute-1.amazonaws.com/payments">
         												<div class="row">
-                                  <h4 class="text-center" style="font-family:Avenir;font-weight:bold">Give <span class="accent-color">Mobility</span> for $30</h4>
-        													<div class="col-sm-8 col-sm-offset-2 input-donate">
+                                  <h4 class="text-center" style="font-family:Avenir;font-weight:bold">Give <span class="accent-color">Mobility</span> for $30</h4> -->
+        													<!-- <div class="col-sm-8 col-sm-offset-2 input-donate">
                                       <input type="text" name="amt" id="amt" value="30.00" onfocus="this.value = this.value;" />
-        													</div>
-        													<div class="col-sm-8 col-sm-offset-2 text-center">
+        													</div> -->
+                                  <!-- <div class="col-sm-8 col-sm-offset-2 input-group input-donate mb40">
+                                    <span class="input-group-addon" style="background-color:#ffffff;border:none;font-family:Avenir;font-weight:bold;font-size:20px">$</span>
+                                    <input class="form-control" type="text" name="amt" id="amt" value="30" onfocus="this.value = this.value;" /> -->
+                                    <!-- <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> -->
+                                    <!-- <span class="input-group-addon" style="background-color:#ffffff;border:none;font-family:Avenir;font-weight:bold;font-size:20px">USD</span>
+                                  </div>
+        													<div class="col-sm-8 col-sm-offset-2 text-center"> -->
         															<!-- <input id="stripe-demo" type="submit" value="Donate" class="special" style="font-family:Proxima Nova Alt Light;" /> -->
-                                      <a class="btn btn-rounded btn-donate" id="stripe-demo" type="submit">Give</a>
+                                      <!-- <a class="btn btn-rounded btn-donate" id="stripe-demo" type="submit">Give</a>
         													</div>
 
         												</div>
                                 <p class="text-center">Want to see where your money goes?</p>
 
-        										</form>
-                          </div>
+        										</form> -->
+                          <!-- </div>
                       </div>
                     </div>
-                    <!--end of row-->
+
                 </div>
-                <!--end of container-->
-            </section>
+
+            </section> -->
 
             <!-- FEATURES SECTION -->
             <section class="projects p0 bg-dark">
@@ -237,7 +228,74 @@
             	<div class="container">
             		<div class="row">
             			<div class="col-md-6">
-            				<img src="img/llf/give-mobilityetc-text.png">
+                    <div class="col-sm-8">
+                      <h4 class="text-center" style="color:#A49B9B;font-family:Avenir;font-weight:bold">Give <span class="accent-color">Confidence</span> for $30</h4>
+                    </div>
+                    <div class="well well-lg well-donate-accent col-sm-8">
+                      <form id="donate_form" method="post" action="http://ec2-54-86-240-164.compute-1.amazonaws.com/payments">
+                          <div class="row">
+                            <!-- <div class="col-sm-8 col-sm-offset-2 input-donate">
+                                <input type="text" name="amt" id="amt" value="30.00" onfocus="this.value = this.value;" />
+                            </div> -->
+                            <div class="col-sm-8 col-sm-offset-2 input-group input-donate mb40">
+                              <span class="input-group-addon" style="color:#000000;border:none;font-family:Avenir;font-weight:bold;font-size:20px">$</span>
+                              <input class="form-control" type="text" name="amt" id="amt" value="30" onfocus="this.value = this.value;" />
+                              <!-- <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> -->
+                              <span class="input-group-addon donate-input-accent" style="color:#000000;border:none;font-family:Avenir;font-weight:bold;font-size:20px">USD</span>
+                            </div>
+                            <div class="col-sm-8 col-sm-offset-2 text-center">
+                                <!-- <input id="stripe-demo" type="submit" value="Donate" class="special" style="font-family:Proxima Nova Alt Light;" /> -->
+                                <a class="btn btn-rounded btn-donate" id="stripe-demo" type="submit">Give</a>
+                            </div>
+
+                          </div>
+                          <p class="text-center">Want to see where your money goes?</p>
+
+                      </form>
+                    </div>
+            			</div>
+            		</div><!--end of row-->
+                <!-- <div class="row">
+            			<div class="col-md-6 text-center">
+							      <a class="btn btn-custom-1" href="#">Learn How</a>
+            			</div>
+            		</div> -->
+            	</div><!--end of container-->
+            </section>
+
+
+            <section class="image-bg pt120 pb120 pt-xs-80 pb-xs-80">
+            	<div class="background-image-holder">
+                    <img alt="image" class="background-image" src="img/llf/DSC_0188.jpg" />
+                </div>
+            	<div class="container">
+            		<div class="row">
+            			<div class="col-md-6 col-md-offset-6">
+                    <div class="col-sm-8 col-sm-offset-4">
+                      <h4 class="text-center" style="color:#A49B9B;font-family:Avenir;font-weight:bold">Give <span class="accent-color">Confidence</span> for $30</h4>
+                    </div>
+                    <div class="well well-lg well-donate-accent col-sm-8 col-sm-offset-4">
+                      <form id="donate_form" method="post" action="http://ec2-54-86-240-164.compute-1.amazonaws.com/payments">
+                          <div class="row">
+                            <!-- <div class="col-sm-8 col-sm-offset-2 input-donate">
+                                <input type="text" name="amt" id="amt" value="30.00" onfocus="this.value = this.value;" />
+                            </div> -->
+                            <div class="col-sm-8 col-sm-offset-2 input-group input-donate mb40">
+                              <span class="input-group-addon" style="color:#000000;border:none;font-family:Avenir;font-weight:bold;font-size:20px">$</span>
+                              <input class="form-control" type="text" name="amt" id="amt" value="30" onfocus="this.value = this.value;" />
+                              <!-- <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> -->
+                              <span class="input-group-addon donate-input-accent" style="color:#000000;border:none;font-family:Avenir;font-weight:bold;font-size:20px">USD</span>
+                            </div>
+                            <div class="col-sm-8 col-sm-offset-2 text-center">
+                                <!-- <input id="stripe-demo" type="submit" value="Donate" class="special" style="font-family:Proxima Nova Alt Light;" /> -->
+                                <a class="btn btn-rounded btn-donate" id="stripe-demo" type="submit">Give</a>
+                            </div>
+
+                          </div>
+                          <p class="text-center">Want to see where your money goes?</p>
+
+                      </form>
+                    </div>
             			</div>
             		</div><!--end of row-->
                 <!-- <div class="row">
@@ -282,7 +340,7 @@
                     <hr>
                     <div class="row">
                       <div class="col-md-offset-3 col-md-6">
-                        <p class="lead">Lotus Life Foundation is a 501(c)(3) nonprofit.</p>
+                        <p class="lead" style="font-family:Proxima Nova Alt Light">Lotus Life Foundation is a 501(c)(3) nonprofit.</p>
                       </div>
                     </div>
                     <!--end of row-->
